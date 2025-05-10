@@ -34,10 +34,6 @@ The following code is an exercise in getting acquainted with the data at hand: f
 
 With a goal of predicting disciplinary action for complaints against NYPD officers, I am merging these four sets to construct a larger frame of reference for my model to pull insights from, one which includes not only the specifics of misconduct incidents and corresponding disciplinary action, but also officer demographics such as race, age, and ranking. 
 
-
-must remember not to erase NAs, but to allow for Not Applicable as they can be predictive of certain outcomes. 
-
-
 > Reading in the data
 
 ```{r, echo = TRUE}
